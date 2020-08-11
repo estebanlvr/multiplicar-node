@@ -4,7 +4,7 @@
 //const fs = require('./fs'); // punto pleca archivos propios
 
 const argv = require('./config/yargs').argv;
-
+const colors = require('colors');
 
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar');
 
